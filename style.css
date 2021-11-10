@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  width: 100%;
+  height: 350px;
+  margin: 20 20;
+  display: flex;
+  background-color: #b0e0e6;
+}
+.sun {
+  height: 450px;
+  margin-top: 30px;
+}
+.bismillah {
+  text-align: center;
+  width: 1000px;
+  height: 200px;
+  margin-left: 70px;
+  margin-top: 30px;
+  filter: drop-shadow(16px 16px 20px rgb(32, 36, 9)) invert(85%);
+}
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  right: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 20px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#Activities {
+  top: 20px;
+  background-color: #04aa6d;
+}
+
+#Vlog {
+  top: 80px;
+  background-color: #ffc0cb; /* Blue */
+}
+
+#BookWorm {
+  top: 140px;
+  background-color: #6a5acd; /* Red */
+}
+
+#Birthdays {
+  top: 200px;
+  background-color: #ff8c00; /* Light Black */
+}
+
+.icon-bar {
+  width: 90px; /* Set a specific width */
+  background-color: #555; /* Dark-grey background */
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: rgb(255, 246, 246); /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: rgb(216, 111, 111); /* Add a hover color */
+}
+
+.active {
+  background-color: #e3eeea; /* Add an active/current color */
+}
+
+.first-section {
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  margin-left: 30;
+  width: 100%;
+}
+.Ayaana {
+  height: 900px;
+  width: 800px;
+}
+
+.second-section {
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  background-blend-mode: hue;
+  background-color: floralwhite;
+}
+.half {
+  width: 100%;
+  float: left;
+  margin: 50px;
+  text-align: center;
+}
+
+img {
+  height: 400px;
+  /* width: 100%; */
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+
+  padding-top: 40px;
+}
+.sun,
+.bismillah,
+.Ayaana,
+.Ayaana2 {
+  box-shadow: none;
+}
+h2 {
+  /* font-weight: 600px; */
+  color: darkorange;
+  text-decoration: darkred;
+  font-size: 40px;
+  border-color: dimgrey;
+  font-family: "Dancing Script", cursive;
+}
+.p-1 {
+  margin-right: 30px;
+  margin-left: 40px;
+}
+h1 {
+  color: brown;
+  font-family: "Dancing Script", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Satisfy", cursive;
+}
+p {
+  color: #707273;
+  font-size: 24px;
+  margin-top: 30px;
+
+  font-family: "Patrick Hand", cursive;
+  font-family: "Satisfy", cursive;
+}
+.p-handlee {
+  font-family: "Handlee", cursive;
+  padding: 15 20;
+  text-align: center;
+  font-size: 22px;
+}
+.rokib-text {
+  margin-right: 10px;
+  margin-left: 20px;
+  
+  font-family: "Handlee", cursive;
+  text-align: right;
+}
+
+.button {
+  text-decoration: none;
+  background-color: orange;
+  padding: 20px 15px;
+  font-weight: 1000px;
+  color: white;
+  border-radius: 15px;
+}
+.Ayaana2 {
+  height: 650px;
+}
+/* .third-section {
+  /* background-image: url(/images/color.png); */
+  height: 700px;
+  width: 100%;
+  float: left;
+  /* margin: 50px; */
+  text-align: center;
+} */
+.color {
+  width: 100%;
+  height: 700px;
+
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+.text {
+  color: white;
+  font-size: 19px;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-80%, -80%);
+  transform: translate(-50%, -50%);
+  /* white-space: nowrap; */
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgb(230, 225, 135);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+.half:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+.half {
+  position: relative;
+  width: 50%;
+}
+
+.first-text {
+  position: center;
+  top: 17px;
+  left: 50px;
+}
+
+.second-text {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+.centered {
+  font-weight: bolder;
+  color: blue;
+  font-family: "Patrick Hand";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.book {
+  height: 300px;
+  width: 250px;
+  padding: 0 30;
+  float: left;
+  margin-left: 100px;
+}
+.third-section  {
+  /* display: flex; */
+  padding-top: 40px;
+  height: 700px;
+  width: 100%;
+  background-blend-mode: hue;
+  background-color: rgb(255, 255, 240);
+  float: left;
+
+  
+}
+.fourth-section{
+  /* padding-top: 70px; */
+  height: 700px;
+  width: 100%;
+background-color: rgb(252, 248, 250);
+float: left;
+
+}
+.book-text {
+text-align: end;
+margin-right: 40px;
+}
+.storybook {
+  float: left;
+  width: 20%;
+  margin: 12px;
+}
+
+.music {
+  /* */
+}
+.singing {
+  padding-top: 50px;
+  margin: 50px;
+  text-align:end;
+}
+.last-section {
+  background-color: rgb(107, 94, 94);
+  height: 700px;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.youtube {
+  width: 30%;
+  float: left;
+  margin: 15px;
+  text-align: center;
+  
+}
+.end{
+  display: flex;
+}
+.foot{
+  height: 500px;
+  width: 500px;
+  color: white;
+  margin-left: 120px;
+  padding-top: 70px;
+  font-size: 20px;
+  
+}
